@@ -20,11 +20,11 @@ public class MainCharacter : MonoBehaviour
             return CanJump;
         }
     }
-    //public enum StepOnWhat
-    //{
-    //    Ground ,
-    //    Enemy
-    //}
+    public enum StepOnWhat
+    {
+        Ground,
+        Enemy
+    }
     void Start ()
     {
         S = this;
